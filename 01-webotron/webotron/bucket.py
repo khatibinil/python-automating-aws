@@ -161,3 +161,8 @@ class BucketManager:
                     self.upload_file(bucket, str(p), str(p.relative_to(root).as_posix()))
 
         handle_directory(root)
+
+
+    def get_bucket(self,bucket_name):
+        """Get bucket object for BUCKET_NAME."""
+        return self.s3.Bucket(bucket_name)
