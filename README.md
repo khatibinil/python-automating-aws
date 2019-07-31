@@ -11,3 +11,5 @@ Webotron currently has the following Features
 - Setup and configure s3 bucket as website
 - Sync directory with s3 bucket
 - Set AWS profile with --profile=<profilename>
+- Compare file etags and only upload file if it has changed
+- See URL of bucket website

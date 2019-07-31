@@ -1,0 +1,7 @@
+{
+  "videolyzer" : {
+      "profile" : "pythonAutomation",
+      "videos_bucket": "niloo-videos-python",
+      "videos_table" : "viodeolyzer-videos-dev"
+  }
+}

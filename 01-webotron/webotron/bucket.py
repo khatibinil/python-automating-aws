@@ -41,9 +41,9 @@ class BucketManager:
         return self.s3.buckets.all()
 
 
-    def all_objects(self,bucket):
+    def all_objects(self,bucket_name):
         """List all objects in bucket."""
-        return self.s3.Bucket(bucket).objects.all()
+        return self.s3.Bucket(bucket_name).objects.all()
 
     def init_bucket(self,bucket_name):
         """Create bucket if it does not exist."""
